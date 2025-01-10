@@ -1,0 +1,6 @@
+admin_msdprotectimages_configuration_controller:
+  path: '/msd/protectimages/configuration'
+  methods: [ GET,POST ]
+  defaults:
+    _controller: Marsaldev\Module\MsdProtectImages\Controller\ConfigurationController::configurationAction
+    _legacy_controller: AdminMsdProtectImagesConfiguration

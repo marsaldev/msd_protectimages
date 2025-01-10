@@ -1,0 +1,25 @@
+{
+  "name": "marsaldev/msd_protectimages",
+  "description": "Protect product source images",
+  "license": "AFL - Academic Free License (AFL 3.0)",
+  "authors": [
+    {
+      "name": "Marco Salvatore (marsaldev)",
+      "email": "hi@marcosalvatore.dev"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "type": "prestashop-module",
+  "minimum-stability": "stable",
+  "config": {
+    "preferred-install": "dist",
+    "prepend-autoloader": false
+  },
+  "autoload": {
+    "psr-4": {
+      "Marsaldev\\Module\\MsdProtectImages\\": "src/"
+    }
+  }
+}
